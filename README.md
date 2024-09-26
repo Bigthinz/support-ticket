@@ -20,7 +20,7 @@ This is a NestJS-based API for a Support Ticket System. It provides endpoints fo
 1. Clone the repository:
 
    ```
-   git clone https://github.com/bigthinz/support-ticket-system.git
+   git clone https://github.com/Bigthinz/support-ticket.git
    cd support-ticket-system
    ```
 
