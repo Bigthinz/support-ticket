@@ -8,8 +8,6 @@ This is a NestJS-based API for a Support Ticket System. It provides endpoints fo
 - User registration and authentication using JWT
 - MongoDB integration using Mongoose
 - Swagger API documentation
-- Unit and integration tests
-- CI/CD pipeline using GitHub Actions
 
 ## Prerequisites
 
@@ -22,7 +20,7 @@ This is a NestJS-based API for a Support Ticket System. It provides endpoints fo
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/support-ticket-system.git
+   git clone https://github.com/bigthinz/support-ticket-system.git
    cd support-ticket-system
    ```
 
@@ -34,7 +32,7 @@ This is a NestJS-based API for a Support Ticket System. It provides endpoints fo
 
 3. Create a `.env` file in the root directory and add the following environment variables:
    ```
-   PORT=3000
+   PORT=4000
    MONGODB_URI=mongodb://localhost:27017/support-ticket-system
    JWT_SECRET=your_jwt_secret_key
    JWT_EXPIRATION=1h
@@ -73,10 +71,6 @@ Once the application is running, you can access the Swagger API documentation at
 ```
 http://localhost:4000/api
 ```
-
-## CI/CD
-
-This project uses GitHub Actions for CI/CD. On every push and pull request, it runs tests on multiple Node.js and MongoDB versions. When changes are pushed to the main branch, it automatically deploys to Heroku.
 
 ## Contributing
 
